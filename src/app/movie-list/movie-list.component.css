@@ -1,0 +1,60 @@
+
+table{
+    padding: 10px;
+}
+table thead{
+    background-color: rgb(204, 199, 199);
+    height: 25px;
+}
+
+table thead th{
+    width: 110px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+table tbody tr td{
+    vertical-align: middle;
+}
+
+.filters{
+    padding: 20px;
+}
+
+.filters img{
+    margin-right: 20px;
+}
+
+.filters input{
+    border: none;
+    border-bottom: 1px solid;
+    margin-right: 20px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.filters select{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    height: 40px;
+    font-size: 18px;
+    width: 170px;
+}
+.filters select:focus{
+    outline: none;
+
+}
+
+.filters input:focus{
+    outline: none;
+
+}
+
+.clear-filters{
+    background-color: rgb(85, 81, 80);
+    padding: 9px 16px;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}

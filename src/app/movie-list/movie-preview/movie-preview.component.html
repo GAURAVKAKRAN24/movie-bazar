@@ -1,0 +1,43 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <img [src]="movie.Poster">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 about-movie">
+            <h1>{{movie.Title}} ({{movie.Year}})</h1>
+            <!-- <div class="rating"><span class="higlight">IMDB Rating</span> : {{movie.imdbRating}}</div>
+            <div class="rating"><span class="higlight">Released Date</span> : {{movie.Released}}</div>
+            <div class="rating"><span class="higlight">Run time</span> : {{movie.Released}}</div>
+            <div class="rating"><span class="higlight">Language</span> : {{movie.Language}}</div>
+            <div class="rating"><span class="higlight">Production</span> : {{movie.Production}}</div>
+            <div class="rating"><span class="higlight">Writer</span> : {{movie.Writer}}</div> -->
+
+            <table class="table">
+                <tr>
+                    <td class="bold">IMDB Rating</td>
+                    <td>{{movie.imdbRating}}</td>
+                </tr>
+                <tr>
+                    <td class="bold">Released Date</td>
+                    <td>{{movie.Released}}</td>
+                </tr>
+                <tr>
+                    <td class="bold">Run time</td>
+                    <td>{{movie.Runtime}}</td>
+                </tr>
+                <tr>
+                    <td class="bold">Language</td>
+                    <td>{{movie.Language}}</td>
+                </tr>
+                <tr>
+                    <td class="bold">Production</td>
+                    <td>{{movie.Production}}</td>
+                </tr>
+                <tr>
+                    <td class="bold">Writer</td>
+                    <td>{{movie.Writer}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

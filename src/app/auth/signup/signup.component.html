@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <h1>Sign in here</h1>
+        <div class="col">            
+            <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name" formControlName="name">
+                  </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" formControlName="email">
+                </div>
+                <div class="mb-3">
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" formControlName="password">
+                </div>
+                <br>
+                <div class="d-grid gap-2">
+                    <button [disabled]="isLoading" type="submit" class="btn btn-primary">
+                        <span *ngIf="!isLoading">Sign in</span>
+                        <span *ngIf="isLoading">Processing...</span>
+                    </button>
+                </div>
+                <br>
+                <div class="signup-link">
+                    Alreay have account? <a href="login">login</a>
+                </div>
+              </form>
+        </div>
+    </div>
+</div>

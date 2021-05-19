@@ -1,0 +1,22 @@
+.about-movie h1{
+    font-size: 35px;
+}
+
+.about-movie .rating{
+    margin-top: 8px;
+    font-size: 18px;
+}
+.table{
+    font-size: 15px;
+}
+.table tr{
+    margin-top: 20px;
+    height: 30px;
+}
+.table tr td{
+    width: 108px;
+    
+}
+.bold{
+    font-weight: bold;
+}

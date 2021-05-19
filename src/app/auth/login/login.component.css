@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 85%;
+}
+
+.row{
+    width: 40%;
+    padding: 50px 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px gray;
+}
+.row h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
